@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nezaket Demirci | CV</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="./assets/logo.png" alt="Nezaket Demirci logo" class="logo">
+        <div>
+          <h1>Nezaket Demirci</h1>
+          <span>Web • Code • Art</span>
+        </div>
+      </a>
+
+      <div class="links">
+        <a class="chip" href="index.html">Ana Sayfa</a>
+        <a class="chip active" href="cv.html">CV</a>
+        <a class="chip" href="projects.html">Projeler</a>
+        <a class="chip" href="blog.html">Blog</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="container">
+    <section class="card hero reveal">
+      <div class="kicker"><span class="dot"></span> CV</div>
+      <h2>Nezaket Demirci</h2>
+      <p>
+        Bilgisayar Programcılığı öğrencisi. Web geliştirme, UI tasarım ve proje üretimiyle ilgileniyorum.
+        (Burayı istersen daha “kurumsal” bir özetle değiştiririz.)
+      </p>
+
+      <div class="actions">
+        <button class="btn primary" onclick="window.print()">PDF olarak yazdır</button>
+        <a class="btn" href="projects.html">Projeler</a>
+        <a class="btn" href="index.html">Ana sayfa</a>
+      </div>
+    </section>
+
+    <!-- 2 kolon: Eğitim + Yetenekler -->
+    <section class="two-col">
+      <div class="item reveal">
+        <h4>Eğitim</h4>
+        <ul class="list">
+          <li><b>Bilgisayar Programcılığı</b> — (Okul adını yaz) • (Yıl)</li>
+          <li>İlgili dersler: Web Tasarım, JavaScript, C, Python, Veri/Excel, …</li>
+        </ul>
+      </div>
+
+      <div class="item reveal">
+        <h4>Yetenekler</h4>
+        <div class="meta">
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">C</span>
+          <span class="pill">Python</span>
+        </div>
+        <ul class="list">
+          <li>Responsive UI / modern tema</li>
+          <li>Temel algoritma & problem çözme</li>
+          <li>GitHub ile proje yönetimi</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3 kart: Deneyim - Projeler Özeti - İletişim -->
+    <section class="grid">
+      <div class="item reveal">
+        <h4>Deneyim / Gönüllülük</h4>
+        <p>
+          Kulüp/ekip, etkinlik organizasyonu, sosyal medya, proje ekip işi vs. buraya yaz.
+        </p>
+        <div class="meta">
+          <span class="pill">Takım</span>
+          <span class="pill">İletişim</span>
+        </div>
+      </div>
+
+      <div class="item reveal">
+        <h4>Öne Çıkan Projeler</h4>
+        <p>
+          2-3 projeyi kısa kısa yaz. Detaylar için projeler sayfasına yönlendirir.
+        </p>
+        <ul class="list">
+          <li><b>Proje 1:</b> Kısa açıklama</li>
+          <li><b>Proje 2:</b> Kısa açıklama</li>
+          <li><b>Proje 3:</b> Kısa açıklama</li>
+        </ul>
+        <a class="more" href="projects.html">Projeler <span>→</span></a>
+      </div>
+
+      <div class="item reveal">
+        <h4>İletişim</h4>
+        <p>İstersen burayı linklerle daha “portfolio” yaparız.</p>
+        <div class="meta">
+          <span class="pill">Mail: seninmail@…</span>
+          <span class="pill">GitHub: @kullaniciadi</span>
+          <span class="pill">LinkedIn: /in/…</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Nezaket Demirci
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

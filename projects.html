@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nezaket Demirci | Projeler</title>
+  <meta name="description" content="Nezaket Demirci projeleri — web, JavaScript, Python ve diğer çalışmalar." />
+  <meta name="theme-color" content="#07060b" />
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html" aria-label="Ana sayfaya git">
+        <img src="./assets/logo.png" alt="Nezaket Demirci logosu" class="logo">
+        <div class="brand-text">
+          <h1>Nezaket Demirci</h1>
+          <span>Web • Code • Art</span>
+        </div>
+      </a>
+
+      <nav class="links" aria-label="Site menüsü">
+        <a class="chip" href="./index.html">Ana Sayfa</a>
+        <a class="chip" href="./cv.html">CV</a>
+        <a class="chip active" href="./projects.html">Projeler</a>
+        <a class="chip" href="./blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <section class="card hero reveal">
+      <div class="kicker"><span class="dot"></span> Projeler</div>
+      <h2>Seçme işler</h2>
+      <p>Her proje: kısa açıklama + teknoloji + GitHub/Live link. Net, şık, mor.</p>
+
+      <div class="actions">
+        <!-- Buraya kendi GitHub linkini koyunca alert’i kaldır -->
+        <a class="btn primary" href="#" onclick="alert('GitHub profil linkini ekle'); return false;">GitHub</a>
+        <a class="btn" href="./cv.html">CV</a>
+        <a class="btn" href="./index.html">Ana sayfa</a>
+      </div>
+    </section>
+
+    <div class="section-title reveal">
+      <h3>Projeler listesi</h3>
+      <p>Buraya 6–12 proje koymak ideal. Az ama sağlam 🔥</p>
+    </div>
+
+    <section class="grid">
+      <article class="item reveal">
+        <h4>Proje Adı</h4>
+        <p>Kısa açıklama. Ne çözüyorsun / ne öğrendin?</p>
+        <div class="meta">
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JS</span>
+        </div>
+        <a class="more" href="#" onclick="alert('Live link'); return false;">Live <span>→</span></a>
+        <a class="more" href="#" onclick="alert('GitHub link'); return false;">GitHub <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>Proje Adı</h4>
+        <p>Kısa açıklama. (Bu kartları çoğalt)</p>
+        <div class="meta">
+          <span class="pill">Python</span>
+          <span class="pill">Jupyter</span>
+        </div>
+        <a class="more" href="#" onclick="alert('GitHub link'); return false;">GitHub <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>Proje Adı</h4>
+        <p>Kısa açıklama.</p>
+        <div class="meta">
+          <span class="pill">C</span>
+          <span class="pill">Algoritma</span>
+        </div>
+        <a class="more" href="#" onclick="alert('Repo link'); return false;">Repo <span>→</span></a>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Nezaket Demirci
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

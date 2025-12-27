@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nezaket Demirci | Ana Sayfa</title>
+  <meta name="description" content="Nezaket Demirci — Web projeleri, CV, blog ve portfolyo. Siyah & mor estetikle kişisel site." />
+  <meta name="theme-color" content="#07060b" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+
+      <!-- BRAND -->
+      <a class="brand" href="./index.html" aria-label="Ana sayfaya git">
+        <img src="./assets/logo.png" alt="Nezaket Demirci logosu" class="logo">
+        <div class="brand-text">
+          <h1>Nezaket Demirci</h1>
+          <span>Web • Code • Art</span>
+        </div>
+      </a>
+
+      <!-- LINKS -->
+      <nav class="links" aria-label="Site menüsü">
+        <a class="chip active" href="./index.html">Ana Sayfa</a>
+        <a class="chip" href="./cv.html">CV</a>
+        <a class="chip" href="./projects.html">Projeler</a>
+        <a class="chip" href="./blog.html">Blog</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <section class="card hero reveal">
+      <div class="kicker"><span class="dot"></span> nezaketdemirci.com</div>
+      <h2>Code, estetik ve kontrollü kaos. 🖤</h2>
+      <p>
+        Bilgisayar Programcılığı öğrencisi. Web projeleri üretiyorum, tasarımla uğraşıyorum,
+        bazen de kodla kavga ediyorum. (Genelde ben kazanıyorum.)
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="./projects.html">Projelerime bak</a>
+        <a class="btn" href="./cv.html">CV’yi gör</a>
+        <a class="btn" href="./blog.html">Yazıları oku</a>
+      </div>
+    </section>
+
+    <div class="section-title reveal">
+      <h3>Öne çıkanlar</h3>
+      <p>En iyi işler + en sevdiğin yazılar. Az ama karizma.</p>
+    </div>
+
+    <section class="grid">
+      <article class="item reveal">
+        <h4>Öne Çıkan Proje</h4>
+        <p>Buraya en iyi projenin kısa açıklaması + “neden önemli” kısmı.</p>
+        <div class="meta">
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JS</span>
+        </div>
+        <a class="more" href="./projects.html">Projeler <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>CV Snapshot</h4>
+        <p>İnsan kaynakları değil, “ben kimim” diye bakanlar için hızlı özet.</p>
+        <div class="meta">
+          <span class="pill">Eğitim</span>
+          <span class="pill">Yetenekler</span>
+        </div>
+        <a class="more" href="./cv.html">CV <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>Son Yazı</h4>
+        <p>“Karanlık tema nasıl şık olur?” gibi bir şey yaz, site daha canlı olur.</p>
+        <div class="meta">
+          <span class="pill">UI</span>
+          <span class="pill">Notlar</span>
+        </div>
+        <a class="more" href="./blog.html">Blog <span>→</span></a>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Nezaket Demirci — Built at 3AM with too much coffee ☕🌙
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nezaket Demirci | Blog</title>
+  <meta name="description" content="Nezaket Demirci blog — debug hikâyeleri, tasarım notları ve öğrenci gözünden yazılım." />
+  <meta name="theme-color" content="#07060b" />
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html" aria-label="Ana sayfaya git">
+        <img src="./assets/logo.png" alt="Nezaket Demirci logosu" class="logo">
+        <div class="brand-text">
+          <h1>Nezaket Demirci</h1>
+          <span>Web • Code • Art</span>
+        </div>
+      </a>
+
+      <nav class="links" aria-label="Site menüsü">
+        <a class="chip" href="./index.html">Ana Sayfa</a>
+        <a class="chip" href="./cv.html">CV</a>
+        <a class="chip" href="./projects.html">Projeler</a>
+        <a class="chip active" href="./blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <section class="card hero reveal">
+      <div class="kicker"><span class="dot"></span> Blog</div>
+      <h2>Notlar & yazılar</h2>
+      <p>Debug hikâyeleri, tasarım notları, öğrenci gözünden yazılım… (ve bir tutam karanlık estetik)</p>
+
+      <div class="actions">
+        <a class="btn primary" href="./projects.html">Projeler</a>
+        <a class="btn" href="./cv.html">CV</a>
+        <a class="btn" href="./index.html">Ana sayfa</a>
+      </div>
+    </section>
+
+    <div class="section-title reveal">
+      <h3>Yazılar</h3>
+      <p>Şimdilik statik kartlar. Sonra istersen JSON/Markdown ile otomatik liste yaparız.</p>
+    </div>
+
+    <section class="grid">
+      <article class="item reveal">
+        <h4>“Karanlık tema nasıl şık olur?”</h4>
+        <p>Renk dengesi, kontrast, tipografi… ve mor glow’un doz ayarı.</p>
+        <div class="meta">
+          <span class="pill">UI</span>
+          <span class="pill">Tasarım</span>
+        </div>
+        <a class="more" href="#" onclick="alert('İstersen ayrı post sayfası açarız'); return false;">Oku <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>“3 saat debug, 1 satır hata”</h4>
+        <p>Kodun dramı ama finalde mutlu son (bazen).</p>
+        <div class="meta">
+          <span class="pill">Debug</span>
+          <span class="pill">Web</span>
+        </div>
+        <a class="more" href="#" onclick="alert('İstersen ayrı post sayfası açarız'); return false;">Oku <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>“Öğrenci portfolyosu nasıl yapılır?”</h4>
+        <p>Az proje + iyi anlatım + doğru sunum = win.</p>
+        <div class="meta">
+          <span class="pill">Kariyer</span>
+          <span class="pill">Portfolio</span>
+        </div>
+        <a class="more" href="#" onclick="alert('İstersen ayrı post sayfası açarız'); return false;">Oku <span>→</span></a>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Nezaket Demirci
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
