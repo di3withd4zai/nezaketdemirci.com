@@ -35,56 +35,74 @@
 
   <!-- MAIN -->
   <main class="container">
-    <section class="card hero reveal">
-      <div class="kicker"><span class="dot"></span> Projeler</div>
-      <h2>Seçme işler</h2>
-      <p>Her proje: kısa açıklama + teknoloji + GitHub/Live link. Net, şık, mor.</p>
-
-      <div class="actions">
-        <!-- Buraya kendi GitHub linkini koyunca alert’i kaldır -->
-        <a class="btn primary" href="#" onclick="alert('GitHub profil linkini ekle'); return false;">GitHub</a>
-        <a class="btn" href="./cv.html">CV</a>
-        <a class="btn" href="./index.html">Ana sayfa</a>
-      </div>
-    </section>
-
-    <div class="section-title reveal">
-      <h3>Projeler listesi</h3>
-      <p>Buraya 6–12 proje koymak ideal. Az ama sağlam 🔥</p>
+<section class="grid">
+  <!-- PROJE 1 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje1.png" alt="Proje 1 görseli" loading="lazy">
+    <h4>Portfolio Website (nezaketdemirci.com)</h4>
+    <p>Kendi alan adımda yayınladığım portfolyo. Karanlık tema, CV/Projeler/Blog sayfaları.</p>
+    <div class="meta">
+      <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JS</span><span class="pill">Netlify</span>
     </div>
+    <a class="more" href="https://nezaketdemirci.com" target="_blank" rel="noreferrer">Live <span>→</span></a>
+    <a class="more" href="https://github.com/di3withd4zai/nezaketdemirci.com" target="_blank" rel="noreferrer">GitHub <span>→</span></a>
+  </article>
 
-    <section class="grid">
-      <article class="item reveal">
-        <h4>Proje Adı</h4>
-        <p>Kısa açıklama. Ne çözüyorsun / ne öğrendin?</p>
-        <div class="meta">
-          <span class="pill">HTML</span>
-          <span class="pill">CSS</span>
-          <span class="pill">JS</span>
-        </div>
-        <a class="more" href="#" onclick="alert('Live link'); return false;">Live <span>→</span></a>
-        <a class="more" href="#" onclick="alert('GitHub link'); return false;">GitHub <span>→</span></a>
-      </article>
+  <!-- PROJE 2 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje2.png" alt="Proje 2 görseli" loading="lazy">
+    <h4>JavaScript Mini Apps</h4>
+    <p>Küçük ama tatlı JS uygulamaları: hesaplayıcılar, form doğrulama, DOM pratikleri.</p>
+    <div class="meta">
+      <span class="pill">JavaScript</span><span class="pill">DOM</span><span class="pill">UI</span>
+    </div>
+    <a class="more" href="#" onclick="alert('Live link ekle'); return false;">Live <span>→</span></a>
+    <a class="more" href="#" onclick="alert('GitHub link ekle'); return false;">GitHub <span>→</span></a>
+  </article>
 
-      <article class="item reveal">
-        <h4>Proje Adı</h4>
-        <p>Kısa açıklama. (Bu kartları çoğalt)</p>
-        <div class="meta">
-          <span class="pill">Python</span>
-          <span class="pill">Jupyter</span>
-        </div>
-        <a class="more" href="#" onclick="alert('GitHub link'); return false;">GitHub <span>→</span></a>
-      </article>
+  <!-- PROJE 3 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje3.png" alt="Proje 3 görseli" loading="lazy">
+    <h4>Python / Veri Analizi (Jupyter)</h4>
+    <p>Veri toplama–temizleme–görselleştirme akışı. Notebook + grafikler + raporlama.</p>
+    <div class="meta">
+      <span class="pill">Python</span><span class="pill">Jupyter</span><span class="pill">Data</span>
+    </div>
+    <a class="more" href="#" onclick="alert('Notebook/Repo link ekle'); return false;">Repo <span>→</span></a>
+  </article>
 
-      <article class="item reveal">
-        <h4>Proje Adı</h4>
-        <p>Kısa açıklama.</p>
-        <div class="meta">
-          <span class="pill">C</span>
-          <span class="pill">Algoritma</span>
-        </div>
-        <a class="more" href="#" onclick="alert('Repo link'); return false;">Repo <span>→</span></a>
-      </article>
+  <!-- PROJE 4 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje4.png" alt="Proje 4 görseli" loading="lazy">
+    <h4>C / Algoritma Çalışmaları</h4>
+    <p>Diziler, fonksiyonlar, dosya işlemleri ve temel algoritma pratikleri.</p>
+    <div class="meta">
+      <span class="pill">C</span><span class="pill">Algoritma</span><span class="pill">Console</span>
+    </div>
+    <a class="more" href="#" onclick="alert('Repo link ekle'); return false;">Repo <span>→</span></a>
+  </article>
+
+  <!-- PROJE 5 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje5.png" alt="Proje 5 görseli" loading="lazy">
+    <h4>UI / Theme Experiments</h4>
+    <p>Mor-siyah tema denemeleri, bileşen tasarımları, hover/animasyon çalışmaları.</p>
+    <div class="meta">
+      <span class="pill">CSS</span><span class="pill">UI</span><span class="pill">Animation</span>
+    </div>
+    <a class="more" href="#" onclick="alert('Live link ekle'); return false;">Live <span>→</span></a>
+  </article>
+
+  <!-- PROJE 6 -->
+  <article class="item reveal">
+    <img class="thumb" src="./assets/images/proje6.png" alt="Proje 6 görseli" loading="lazy">
+    <h4>Blog Notes / Learning Log</h4>
+    <p>Öğrenirken yazdığım kısa notlar: debug hikâyeleri, web ipuçları, mini rehberler.</p>
+    <div class="meta">
+      <span class="pill">Writing</span><span class="pill">Web</span><span class="pill">Notes</span>
+    </div>
+    <a class="more" href="./blog.html">Oku <span>→</span></a>
+  </article>
     </section>
 
     <footer>
