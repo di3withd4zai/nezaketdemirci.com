@@ -5,110 +5,144 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nezaket Demirci | CV</title>
 
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Nezaket Demirci — CV | Bilgisayar Programcılığı öğrencisi. Web geliştirme, UI tasarım ve öğrenme odaklı projeler." />
+  <meta name="theme-color" content="#07060b" />
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <!-- NAV -->
-  <div class="nav">
+  <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="index.html">
-        <img src="./assets/logo.png" alt="Nezaket Demirci logo" class="logo">
-        <div>
+      <a class="brand" href="./index.html" aria-label="Ana sayfaya git">
+        <img src="./assets/logo.png" alt="Nezaket Demirci logosu" class="logo">
+        <div class="brand-text">
           <h1>Nezaket Demirci</h1>
           <span>Web • Code • Art</span>
         </div>
       </a>
 
-      <div class="links">
-        <a class="chip" href="index.html">Ana Sayfa</a>
-        <a class="chip active" href="cv.html">CV</a>
-        <a class="chip" href="projects.html">Projeler</a>
-        <a class="chip" href="blog.html">Blog</a>
-      </div>
+      <nav class="links" aria-label="Site menüsü">
+        <a class="chip" href="./index.html">Ana Sayfa</a>
+        <a class="chip active" href="./cv.html">CV</a>
+        <a class="chip" href="./projects.html">Projeler</a>
+        <a class="chip" href="./blog.html">Blog</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
   <!-- MAIN -->
   <main class="container">
+    <!-- HERO -->
     <section class="card hero reveal">
       <div class="kicker"><span class="dot"></span> CV</div>
       <h2>Nezaket Demirci</h2>
       <p>
-        Bilgisayar Programcılığı öğrencisi. Web geliştirme, UI tasarım ve proje üretimiyle ilgileniyorum.
-        (Burayı istersen daha “kurumsal” bir özetle değiştiririz.)
+        Marmara Üniversitesi Bilgisayar Programcılığı öğrencisi (İstanbul).
+        Hırslı, yeniliğe ve öğrenmeye açık, meraklı. Web geliştirme ve UI tasarım tarafında
+        üretmeyi ve öğrenmeyi seviyorum.
       </p>
 
       <div class="actions">
-        <button class="btn primary" onclick="window.print()">PDF olarak yazdır</button>
-        <a class="btn" href="projects.html">Projeler</a>
-        <a class="btn" href="index.html">Ana sayfa</a>
+        <a class="btn primary" href="mailto:nezaketdemirci1@gmail.com">Mail at</a>
+        <a class="btn" href="https://github.com/di3withd4zai" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noreferrer">LinkedIn</a>
+        <button class="btn" onclick="window.print()">PDF olarak yazdır</button>
       </div>
     </section>
 
-    <!-- 2 kolon: Eğitim + Yetenekler -->
-    <section class="two-col">
-      <div class="item reveal">
+    <!-- 2 KOLON: EĞİTİM + YETENEKLER -->
+    <section class="two-col" style="margin-top:24px;">
+      <article class="item reveal">
         <h4>Eğitim</h4>
         <ul class="list">
-          <li><b>Bilgisayar Programcılığı</b> — (Okul adını yaz) • (Yıl)</li>
-          <li>İlgili dersler: Web Tasarım, JavaScript, C, Python, Veri/Excel, …</li>
+          <li>
+            <b>Marmara Üniversitesi</b> — Bilgisayar Programcılığı<br>
+            <span style="opacity:.85;">2025 – Devam ediyor</span>
+          </li>
+          <li>
+            <b>Pendik Fatih Anadolu Lisesi</b><br>
+            <span style="opacity:.85;">2019 – 2023</span>
+          </li>
+          <li>
+            İlgili alanlar: Web Tasarım, JavaScript, C, Python, temel algoritmalar, UI/tema tasarımı
+          </li>
         </ul>
-      </div>
+      </article>
 
-      <div class="item reveal">
+      <article class="item reveal">
         <h4>Yetenekler</h4>
         <div class="meta">
           <span class="pill">HTML</span>
           <span class="pill">CSS</span>
           <span class="pill">JavaScript</span>
-          <span class="pill">C</span>
           <span class="pill">Python</span>
+          <span class="pill">C</span>
+          <span class="pill">Git & GitHub</span>
+          <span class="pill">VS Code</span>
+          <span class="pill">Netlify</span>
+          <span class="pill">UI Design</span>
         </div>
         <ul class="list">
-          <li>Responsive UI / modern tema</li>
+          <li>Responsive arayüz geliştirme ve tema düzenleme</li>
           <li>Temel algoritma & problem çözme</li>
-          <li>GitHub ile proje yönetimi</li>
+          <li>GitHub ile proje takibi / versiyon kontrol</li>
         </ul>
-      </div>
+      </article>
     </section>
 
-    <!-- 3 kart: Deneyim - Projeler Özeti - İletişim -->
-    <section class="grid">
-      <div class="item reveal">
+    <!-- 3 KART: GÖNÜLLÜLÜK - PROJE DURUMU - İLETİŞİM -->
+    <section class="grid" style="margin-top:14px;">
+      <article class="item reveal">
         <h4>Deneyim / Gönüllülük</h4>
         <p>
-          Kulüp/ekip, etkinlik organizasyonu, sosyal medya, proje ekip işi vs. buraya yaz.
-        </p>
-        <div class="meta">
-          <span class="pill">Takım</span>
-          <span class="pill">İletişim</span>
-        </div>
-      </div>
-
-      <div class="item reveal">
-        <h4>Öne Çıkan Projeler</h4>
-        <p>
-          2-3 projeyi kısa kısa yaz. Detaylar için projeler sayfasına yönlendirir.
+          Takım çalışması ve etkinlik deneyimi kazanmayı seviyorum. Öğrenci etkinliklerinde
+          aktif rol alarak iletişim ve organizasyon becerilerimi geliştiriyorum.
         </p>
         <ul class="list">
-          <li><b>Proje 1:</b> Kısa açıklama</li>
-          <li><b>Proje 2:</b> Kısa açıklama</li>
-          <li><b>Proje 3:</b> Kısa açıklama</li>
+          <li>
+            <b>İkhal Bunkasai</b> — Katılım Sertifikası (Gönüllülük / Etkinlik Katılımı)
+            <!-- Sertifika dosyanı eklersen burayı link yapalım -->
+            <!-- <a href="./assets/certificates/ikhal-bunkasai.pdf" target="_blank">Sertifika</a> -->
+          </li>
         </ul>
-        <a class="more" href="projects.html">Projeler <span>→</span></a>
-      </div>
-
-      <div class="item reveal">
-        <h4>İletişim</h4>
-        <p>İstersen burayı linklerle daha “portfolio” yaparız.</p>
         <div class="meta">
-          <span class="pill">Mail: seninmail@…</span>
-          <span class="pill">GitHub: @kullaniciadi</span>
-          <span class="pill">LinkedIn: /in/…</span>
+          <span class="pill">Organizasyon</span>
+          <span class="pill">İletişim</span>
+          <span class="pill">Takım</span>
         </div>
-      </div>
+      </article>
+
+      <article class="item reveal">
+        <h4>Projeler (Gelişim Süreci)</h4>
+        <p>
+          Henüz tamamlanmış büyük ölçekli projelerim yok; aktif olarak küçük denemeler,
+          sayfa tasarımları ve mini uygulamalarla portfolyomu büyütüyorum.
+        </p>
+        <ul class="list">
+          <li><b>nezaketdemirci.com</b> — Kişisel portfolyo sitesi (HTML/CSS/JS)</li>
+          <li>JavaScript mini uygulamalar (DOM pratikleri)</li>
+          <li>Python ve C ile algoritma & temel programlama çalışmaları</li>
+        </ul>
+        <a class="more" href="./projects.html">Projeler <span>→</span></a>
+      </article>
+
+      <article class="item reveal">
+        <h4>İletişim</h4>
+        <ul class="list">
+          <li><b>Şehir:</b> İstanbul</li>
+          <li><b>Email:</b> <a href="mailto:nezaketdemirci1@gmail.com">nezaketdemirci1@gmail.com</a></li>
+          <li><b>GitHub:</b> <a href="https://github.com/di3withd4zai" target="_blank" rel="noreferrer">di3withd4zai</a></li>
+          <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noreferrer">/in/nezaketdemirci</a></li>
+          <li><b>Website:</b> <a href="https://nezaketdemirci.com" target="_blank" rel="noreferrer">nezaketdemirci.com</a></li>
+        </ul>
+        <div class="meta">
+          <span class="pill">İngilizce: B2</span>
+          <span class="pill">Japonca: Başlangıç</span>
+        </div>
+      </article>
     </section>
 
     <footer>
@@ -116,6 +150,6 @@
     </footer>
   </main>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
