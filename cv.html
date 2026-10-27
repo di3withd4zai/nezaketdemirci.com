@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nezaket Demirci | CV</title>
-
-  <meta name="description" content="Nezaket Demirci — CV | Bilgisayar Programcılığı öğrencisi. Web geliştirme, UI tasarım ve öğrenme odaklı projeler." />
-  <meta name="theme-color" content="#07060b" />
-
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-
-<body>
-  <!-- NAV -->
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="./index.html" aria-label="Ana sayfaya git">
-        <img src="./assets/logo.png" alt="Nezaket Demirci logosu" class="logo">
-        <div class="brand-text">
-          <h1>Nezaket Demirci</h1>
-          <span>Web • Code • Art</span>
-        </div>
-      </a>
-
-      <nav class="links" aria-label="Site menüsü">
-        <a class="chip" href="./index.html">Ana Sayfa</a>
-        <a class="chip active" href="./cv.html">CV</a>
-        <a class="chip" href="./projects.html">Projeler</a>
-        <a class="chip" href="./blog.html">Blog</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- MAIN -->
-  <main class="container">
-    <!-- HERO -->
-    <section class="card hero reveal">
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b090f"><meta name="description" content="Nezaket Demirci — web geliştirme, tasarım, projeler ve öğrenme notları."><title>CV · Nezaket Demirci</title><link rel="icon" href="favicon.ico"><link rel="stylesheet" href="styles.css"></head><body><a class="skip" href="#main">İçeriğe geç</a><header><a class="brand" href="index.html"><b>nd<span>·</span></b><span>NEZAKET<br>DEMİRCİ</span></a><nav aria-label="Ana menü"><a href="index.html" >Ana sayfa</a><a href="projects.html" >Projeler</a><a href="blog.html" >Notlar</a><a href="cv.html" aria-current=page>CV</a></nav><a class="contact" href="mailto:nezaketdemirci1@gmail.com">Bir merhaba de ↗</a></header><main id="main"><section class="page-heading cv-heading"><p class="eyebrow">ÖZGEÇMİŞ / CV</p><h1>Merakım,<br><em>yol haritam.</em></h1></section><div class="cv-content">
+    
+    <section class="cv-hero">
       <div class="kicker"><span class="dot"></span> CV</div>
       <h2>Nezaket Demirci</h2>
       <p>
@@ -46,17 +10,17 @@
       </p>
 
       <div class="actions">
-        <a class="btn primary" href="mailto:nezaketdemirci1@gmail.com">Mail at</a>
-        <a class="btn" href="https://github.com/di3withd4zai" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn" href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noreferrer">LinkedIn</a>
-        <button class="btn" onclick="window.print()">PDF olarak yazdır</button>
+        <a class="button primary" href="mailto:nezaketdemirci1@gmail.com">Mail at</a>
+        <a class="button" href="https://github.com/di3withd4zai" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noreferrer">LinkedIn</a>
+        <button class="button" onclick="window.print()">PDF olarak yazdır</button>
       </div>
     </section>
 
-    <!-- 2 KOLON: EĞİTİM + YETENEKLER -->
-    <section class="two-col" style="margin-top:24px;">
-      <article class="item reveal">
-        <h4>Eğitim</h4>
+    
+    <section class="cv-grid" style="margin-top:24px;">
+      <article class="cv-card">
+        <h3>Eğitim</h3>
         <ul class="list">
           <li>
             <b>Marmara Üniversitesi</b> — Bilgisayar Programcılığı<br>
@@ -72,8 +36,8 @@
         </ul>
       </article>
 
-      <article class="item reveal">
-        <h4>Yetenekler</h4>
+      <article class="cv-card">
+        <h3>Yetenekler</h3>
         <div class="meta">
           <span class="pill">HTML</span>
           <span class="pill">CSS</span>
@@ -93,10 +57,10 @@
       </article>
     </section>
 
-    <!-- 3 KART: GÖNÜLLÜLÜK - PROJE DURUMU - İLETİŞİM -->
-    <section class="grid" style="margin-top:14px;">
-      <article class="item reveal">
-  <h4>Deneyim / Gönüllülük</h4>
+    
+    <section class="cv-grid" style="margin-top:14px;">
+      <article class="cv-card">
+  <h3>Deneyim / Gönüllülük</h3>
   <p>
     Takım çalışması ve etkinlik deneyimi kazanmayı seviyorum. Öğrenci etkinliklerinde
     aktif rol alarak iletişim ve organizasyon becerilerimi geliştiriyorum.
@@ -128,10 +92,10 @@
 </article>
 
 
-      <article class="item reveal">
-        <h4>Projeler (Gelişim Süreci)</h4>
+      <article class="cv-card">
+        <h3>Projeler (Gelişim Süreci)</h3>
         <p>
-          Henüz tamamlanmış büyük ölçekli projelerim yok; aktif olarak küçük denemeler,
+          Tamamladığım projeleri portfolyom için derliyor; yeni denemeler,
           sayfa tasarımları ve mini uygulamalarla portfolyomu büyütüyorum.
         </p>
         <ul class="list">
@@ -142,8 +106,8 @@
         <a class="more" href="./projects.html">Projeler <span>→</span></a>
       </article>
 
-      <article class="item reveal">
-        <h4>İletişim</h4>
+      <article class="cv-card">
+        <h3>İletişim</h3>
         <ul class="list">
           <li><b>Şehir:</b> İstanbul</li>
           <li><b>Email:</b> <a href="mailto:nezaketdemirci1@gmail.com">nezaketdemirci1@gmail.com</a></li>
@@ -158,11 +122,4 @@
       </article>
     </section>
 
-    <footer>
-      © <span id="year"></span> Nezaket Demirci
-    </footer>
-  </main>
-
-  <script src="./script.js"></script>
-</body>
-</html>
+    </div></main><footer><div><b class="footer-mark">nd<span>·</span></b><p>Kodla kuruldu. Merakla büyüyor.</p></div><div class="footer-links"><a href="https://github.com/di3withd4zai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:nezaketdemirci1@gmail.com">E-posta ↗</a></div><small>© <span id="year">2026</span> Nezaket Demirci<br>İstanbul, Türkiye</small></footer><script src="script.js"></script></body></html>
