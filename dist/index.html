@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171123">
+  <meta name="description" content="NEZ.EXE — Nezaket Demirci’nin oyun, yazılım ve piksel sanat portfolyosu.">
+  <meta property="og:title" content="NEZ.EXE · The Midnight Desk">
+  <meta property="og:description" content="Oyunlar, yazılım ve küçük dijital dünyalar.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nezaketdemirci.com/">
+  <meta property="og:image" content="https://nezaketdemirci.com/assets/nez/social.png">
+  <link rel="canonical" href="https://nezaketdemirci.com/">
+  <link rel="icon" href="assets/nez/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="scrapbook.css">
+  <link rel="stylesheet" href="personal.css">
+  <script defer src="content/locales.js"></script>
+  <script defer src="content/scrapbook-copy.js"></script>
+  <script defer src="content/projects.js"></script>
+  <script defer src="content/documents.js"></script>
+  <script defer src="content/personal.js"></script>
+  <script defer src="project-view.js"></script>
+  <script defer src="gallery.js"></script>
+  <script defer src="desktop.js"></script>
+  <script defer src="scrapbook.js"></script>
+  <script defer src="stars.js"></script>
+  <script defer src="personal.js"></script>
+  <title>NEZ.EXE · The Midnight Desk</title>
+</head>
+<body class="desktop-page scrapbook-page">
+  <div id="desktop-base">
+    <a class="skip" href="#main" data-copy="skip">İçeriğe geç</a>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="wordmark" href="./" aria-label="NEZ.EXE"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#sparkle"/></svg><span>NEZ<span class="brand-dot">.</span>EXE</span></a>
+        <nav class="topnav" aria-label="Ana menü" data-aria="scrapNav">
+          <a href="#main" aria-current="page" data-copy="scrapHome">Ana Sayfa</a>
+          <a href="#games" data-copy="projects">Projeler</a>
+          <a href="anime.html" data-copy="scrapAnimeNav">Anime</a>
+          <a href="#contact" data-copy="contact">İletişim</a>
+        </nav>
+        <div class="language" role="group" aria-label="Site dili" data-aria="language" hidden>
+          <button type="button" data-lang="tr" aria-pressed="true" lang="tr">TR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+    <main class="desktop-main" id="main" tabindex="-1">
+      <section class="scrap-hero" aria-labelledby="intro-heading">
+        <div class="hero-copy">
+          <p class="scrap-eyebrow"><span class="edition-dot" aria-hidden="true"></span><span data-copy="scrapWelcome">Küçük evrenime hoş geldin</span></p>
+          <h1 id="intro-heading" class="cutout-title">
+            <span class="greeting-prefix" data-copy="scrapGreeting">Merhaba, ben</span>
+            <span class="cutout-word"><span class="sr-only">Nez!</span><span class="cutout-letters" aria-hidden="true"><b>N</b><b>e</b><b>z</b><i>!</i></span></span>
+          </h1>
+          <p class="hero-lead" data-copy="scrapLine">Kodlardan, piksellerden ve hayal gücümden küçük dünyalar kuruyorum.</p>
+          <p class="scrap-role"><span data-copy="scrapRole">Oyun geliştiricisi ve Bilgisayar Programcılığı öğrencisi</span></p>
+          <div class="scrap-actions">
+            <a class="scrap-link scrap-link--paper" href="#files" data-copy="scrapExplore">Evrenimi keşfet</a>
+            <a class="scrap-link scrap-link--line" href="#games" data-copy="scrapProjects">Projelerime göz at</a>
+          </div>
+        </div>
+        <div class="hero-collage">
+          <div class="collage-sheet" aria-hidden="true"></div>
+          <span class="collage-note" data-copy="scrapPortraitFile">Portre dosyası</span>
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <figure class="hero-polaroid">
+            <button class="polaroid-trigger" type="button" data-open-polaroid disabled aria-haspopup="dialog" aria-label="Nez’in piksel portresini büyüt" data-aria="scrapEnlarge">
+              <span class="polaroid-image">
+                <img class="polaroid-avatar" src="assets/scrapbook/nez-portrait.webp" width="1254" height="1254" alt="Koyu mor saçları ve yıldızlı bir arka planla Nez’in piksel portresi" fetchpriority="high">
+              </span>
+              <span class="polaroid-expand" aria-hidden="true">+</span>
+            </button>
+            <figcaption><span>Nez &amp; Calico</span><small data-copy="scrapAvatar">Nez’in piksel portresi</small></figcaption>
+          </figure>
+          <button type="button" class="hero-cat" data-hero-cat aria-label="Calico kediyi selamla" data-aria="cat" hidden><img src="assets/nez/calico.svg" width="32" height="26" alt=""></button>
+          <img class="hero-cat hero-cat-fallback" src="assets/nez/calico.svg" width="32" height="26" alt="">
+          <p class="hero-cat-message" data-hero-cat-message role="status"></p>
+          <img class="collage-doodle" src="assets/scrapbook/margin-marks.svg" width="84" height="83" alt="">
+        </div>
+        <div class="star-patch" id="star-patch" role="group" aria-label="Taşınabilir yıldızlar" data-aria="scrapStars" hidden>
+          <p id="star-instructions" class="star-instructions" data-copy="scrapStarHint">Yıldızları sürükle veya yön tuşlarıyla taşı</p>
+          <div class="star-field" data-star-field></div>
+          <p class="star-message" data-star-message role="status"></p>
+        </div>
+      </section>
+
+      <section id="files" class="scrap-desk" aria-labelledby="files-heading" tabindex="-1">
+        <div class="desk-head">
+          <h2 id="files-heading" data-copy="files">Masaüstü dosyaları</h2>
+          <p data-copy="filesNote">Açmak için bir dosya seç.</p>
+        </div>
+        <div class="scrap-folders">
+          <a class="folder folder--games" href="projects.html#games" data-open="games"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#game"/></svg></span></span><span class="folder-label" data-copy="folders.games">Oyunlar</span></a>
+          <a class="folder folder--about" href="cv.html" data-open="about"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#person"/></svg></span></span><span class="folder-label" data-copy="folders.about">Hakkımda</span></a>
+          <a class="folder folder--anime" href="anime.html" data-open="anime"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#heart"/></svg></span></span><span class="folder-label" data-copy="scrapAnimeNav">Anime</span></a>
+          <a class="folder folder--coding" href="projects.html#coding" data-open="coding"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#terminal"/></svg></span></span><span class="folder-label" data-copy="folders.coding">Yazılım</span></a>
+          <a class="folder folder--creative" href="#creative" data-open="creative"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#book"/></svg></span></span><span class="folder-label" data-copy="folders.creative">Yaratıcı köşe</span></a>
+          <a class="folder folder--contact" href="mailto:nezaketdemirci1@gmail.com" data-open="contact"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#mail"/></svg></span></span><span class="folder-label" data-copy="folders.contact">İletişim</span></a>
+          <a class="folder folder--toolbox" href="cv.html#skills" data-open="toolbox"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#tools"/></svg></span></span><span class="folder-label" data-copy="folders.toolbox">Araç kutusu</span></a>
+          <a class="folder folder--experience" href="cv.html#experience" data-open="experience"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#hour"/></svg></span></span><span class="folder-label" data-copy="folders.experience">Deneyim</span></a>
+          <a class="folder folder--resume" href="cv.html" data-open="resume"><span class="folder-art" aria-hidden="true"><span class="folder-front"><svg class="icon"><use href="assets/nez/icons.svg#file"/></svg></span></span><span class="folder-label" data-copy="folders.resume">Özgeçmiş</span></a>
+        </div>
+      </section>
+
+      <section class="scrap-about scrap-chapter" id="about" aria-labelledby="about-heading">
+        <div class="about-paper">
+          <p class="paper-label" data-copy="about">Nezaket Demirci</p>
+          <h2 id="about-heading" data-copy="scrapAbout">Nez kim?</h2>
+          <p data-copy="bio">Ben Nez. Oyun geliştirme, yazılım ve arayüz tasarımının kesiştiği yerde üretmeyi seviyorum. Pixel-art oyunlar, küçük yazılım araçları ve etkileşimli dünyalar tasarlıyorum.</p>
+          <p class="about-education"><strong data-copy="marmara">Marmara Üniversitesi</strong><span data-copy="program">Bilgisayar Programcılığı</span></p>
+          <div class="chapter-links">
+            <a href="cv.html" data-copy="cvView">Özgeçmişi aç</a>
+            <a href="cv.html#skills" data-open="toolbox" data-copy="folders.toolbox">Araç kutusu</a>
+          </div>
+        </div>
+        <figure class="garden-print">
+          <img src="assets/nez/garden.svg" alt="" width="160" height="94" loading="lazy">
+          <figcaption data-copy="artCredit">NEZ.EXE piksel illüstrasyonu</figcaption>
+        </figure>
+      </section>
+
+      <section class="scrap-chapter scrap-games" id="games" aria-labelledby="featured-heading">
+        <header class="chapter-head">
+          <h2 id="featured-heading" data-copy="scrapGames">Kurduğum küçük dünyalar</h2>
+          <a href="projects.html" data-copy="allProjects">Tüm projeleri gör</a>
+        </header>
+        <div id="featured-projects" class="project-grid"></div>
+        <noscript><p><a href="projects.html">Oyun ve yazılım projelerini aç</a></p></noscript>
+      </section>
+
+      <section class="scrap-chapter scrap-code" id="coding" aria-labelledby="coding-heading">
+        <header class="chapter-head">
+          <h2 id="coding-heading" data-copy="scrapCoding">Kod ve küçük araçlar</h2>
+          <a href="projects.html#coding" data-copy="scrapAllCode">Tüm yazılım projeleri</a>
+        </header>
+        <div id="coding-projects" class="project-grid"></div>
+      </section>
+
+      <section class="scrap-chapter scrap-anime" id="anime" aria-labelledby="anime-heading">
+        <header class="chapter-head">
+          <h2 id="anime-heading" data-copy="scrapAnime">Anime rafım</h2>
+          <a href="anime.html" data-copy="scrapAnimeLink">Anime arşivini aç</a>
+        </header>
+        <div id="anime-shelf"></div>
+      </section>
+
+      <section class="scrap-chapter scrap-creative" id="creative" aria-labelledby="creative-heading">
+        <header class="chapter-head">
+          <h2 id="creative-heading" data-copy="creativeTitle">Yaratıcı köşe</h2>
+          <a href="blog.html" data-copy="notes">Not defterini aç</a>
+        </header>
+        <p data-copy="creativeText">Piksel çizimler, oyun konseptleri ve öğrenme notlarımı burada bir araya getireceğim.</p>
+        <div id="art-corner"></div>
+        <div id="personal-memories"></div>
+      </section>
+
+      <section class="scrap-chapter scrap-notes" id="little-notes" aria-labelledby="notes-heading">
+        <div class="notes-page">
+          <h2 id="notes-heading" data-copy="scrapNotes">Ufak notlar</h2>
+          <div id="personal-notes"></div>
+        </div>
+        <div class="current-paper">
+          <h3 data-copy="scrapCurrent">Şu sıralar</h3>
+          <div id="currently-into"></div>
+        </div>
+      </section>
+
+      <section class="scrap-chapter scrap-contact" id="contact" aria-labelledby="contact-heading">
+        <div class="letter-content">
+          <h2 id="contact-heading" data-copy="contactTitle">Bir merhaba de!</h2>
+          <p data-copy="contactText">Proje fikirleri, ekip çalışmaları ve profesyonel iletişim için bana yazabilirsin.</p>
+          <div class="chapter-links">
+            <a href="mailto:nezaketdemirci1@gmail.com" data-copy="email">E-posta</a>
+            <a href="https://github.com/di3withd4zai" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="cv.html" data-copy="cvView">Özgeçmişi aç</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>© <span data-year>2026</span> Nezaket Demirci</span>
+      <a href="https://github.com/di3withd4zai" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </footer>
+    <aside class="taskbar" aria-label="Görev çubuğu" data-aria="taskbar">
+      <a href="#files" class="task-home"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#sparkle"/></svg> <span>NEZ.EXE</span></a>
+      <div class="tasks" id="tasks"></div>
+      <span class="task-idle" id="task-idle" data-copy="noWindows">Açık pencere yok</span>
+      <button type="button" class="cat-button" id="cat-button" hidden data-aria="cat" aria-label="Calico kediyi selamla"><img src="assets/nez/calico.svg" width="32" height="26" alt=""></button>
+      <span id="cat-message" class="cat-message" role="status"></span>
+    </aside>
+    <dialog class="photo-dialog" id="polaroid-dialog" aria-labelledby="polaroid-title">
+      <form method="dialog"><button data-copy="close">Kapat</button></form>
+      <figure>
+        <div class="photo-dialog-image"><img data-expanded-avatar alt=""><img src="assets/nez/calico.svg" width="32" height="26" alt=""></div>
+        <figcaption id="polaroid-title"><span>Nez &amp; Calico</span><small data-copy="scrapAvatar">Nez’in piksel portresi</small></figcaption>
+      </figure>
+    </dialog>
+  </div>
+  <div id="window-layer"></div>
+  <div class="sr-only" id="window-status" role="status"></div>
+</body>
+</html>

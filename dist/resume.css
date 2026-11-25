@@ -1,0 +1,23 @@
+.cv-intro { border-bottom: 1px solid var(--dark-edge); padding-bottom: 25px }
+.cv-intro h1 { font-size: clamp(39px, 7vw, 74px); margin-bottom: 13px }
+.cv-actions { margin-top: 18px }
+.cv-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px }
+.cv-card { background: var(--night-panel); border: 1px solid var(--dark-edge); padding: 17px }
+.cv-card h2 { margin-bottom: 12px }
+.cv-card p, .cv-card li { overflow-wrap: anywhere }
+.cv-card p + p { margin-top: 8px }
+.cv-card ul:not(.tags) { padding-left: 20px; margin-block: 8px }
+.cv-card .tags { margin-block: 8px }
+@media (max-width: 620px) { .cv-grid { grid-template-columns: 1fr } }
+@page { size: A4; margin: 14mm }
+@media print {
+  .cv-page { min-height: auto; padding: 0; font-size: 10.5pt }
+  .cv-page h1 { font: 700 24pt/1.15 var(--ui); color: #171123 }
+  .cv-intro { padding-bottom: 10px }
+  .cv-page .plain-lead { color: #222 }
+  .cv-page .cv-grid { grid-template-columns: 1fr 1fr; margin-top: 10px; gap: 8px }
+  .cv-card { background: #fff; border-color: #aaa; padding: 8px; break-inside: avoid }
+  .cv-card h2 { font: 700 14pt/1.15 var(--ui); margin-bottom: 6px }
+  .cv-card .tag { color: #222; border-color: #999 }
+  .cv-actions { display: none }
+}

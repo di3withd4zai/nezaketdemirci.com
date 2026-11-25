@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171123">
+  <title>Projeler · NEZ.EXE</title>
+  <meta name="description" content="Nezaket Demirci’nin oyun ve yazılım projeleri.">
+  <meta property="og:title" content="Projeler · NEZ.EXE">
+  <meta property="og:description" content="Nezaket Demirci’nin oyun ve yazılım projeleri.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nezaketdemirci.com/projects.html">
+  <meta property="og:image" content="https://nezaketdemirci.com/assets/nez/social.png">
+  <link rel="canonical" href="https://nezaketdemirci.com/projects.html">
+  <link rel="icon" href="assets/nez/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="scrapbook.css">
+  <link rel="stylesheet" href="personal.css">
+
+  <script defer src="content/locales.js"></script>
+  <script defer src="page.js"></script>
+  <script defer src="project-view.js"></script>
+  <script defer src="gallery.js"></script>
+
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">İçeriğe geç</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="wordmark" href="./" aria-label="NEZ.EXE"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#sparkle"/></svg><span>NEZ<span class="brand-dot">.</span>EXE</span></a>
+      <nav class="topnav">
+        <a href="./" data-copy="desktop">Masaüstü</a>
+        <a href="projects.html" aria-current="page" data-copy="projects">Projeler</a>
+        <a href="anime.html">Anime</a>
+        <a href="blog.html" data-copy="creativeTitle">Yaratıcı köşe</a>
+        <a href="cv.html" data-copy="resumeTitle">Özgeçmiş</a>
+      </nav>
+      <div class="language" role="group" aria-label="Site dili" hidden>
+        <button type="button" data-lang="tr" aria-pressed="true" lang="tr">TR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="plain-main" tabindex="-1">
+    <h1>Projeler</h1>
+    <section id="games" class="group">
+      <div class="section-head"><h2><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#game"/></svg> Oyunlarım</h2></div>
+      <div class="project-grid"><article class="project-card project-card--mewmory"><a href="projects/mewmory.html"><figure class="cover cover--moon"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#moon"/></svg><figcaption>Görsel bekleniyor</figcaption></figure><div class="project-copy"><span class="project-status">Psikolojik korku</span><h3>Mewmory</h3><p>Kediler, sırlar ve karanlık bir pixel-art atmosferi.</p><ul class="tags"><li class="tag">Pixel art</li></ul><span class="project-status">Yeni başlandı</span></div></a></article><article class="project-card project-card--studyverse"><a href="projects/studyverse.html"><figure class="cover cover--media"><img src="media/projects/studyverse/02_oyuncu_koyu.png" alt="Godot prototipinde sekize sekiz izometrik araziye yerleştirilmiş mavi çatılı ev ve ağaç. Altta market ve soru çözme düğmeleri var." width="1280" height="800" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">Web tabanlı eğitsel oyun</span><h3>StudyVerse</h3><p>Fonksiyon sorularını çöz, altın kazan ve izometrik köyünü geliştir.</p><ul class="tags"><li class="tag">Godot 4.6.2</li><li class="tag">GDScript</li><li class="tag">React</li><li class="tag">TypeScript</li><li class="tag">Vite</li><li class="tag">Supabase</li><li class="tag">PostgreSQL</li><li class="tag">SQL</li></ul><span class="project-status">Oynanabilir prototip · Geliştirme aşamasında</span></div></a></article><article class="project-card project-card--sushisim"><a href="projects/sushisim.html"><figure class="cover cover--media"><img src="media/projects/sushisim/playing.webp" alt="Sushi, tırmalama direğinin yanında karton kutunun içinde. Oyun göstergeleri ve komut düğmeleri görünüyor." width="1919" height="1079" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">Sanal evcil hayvan</span><h3>SushiSim</h3><p>Sushi adlı kedinin ihtiyaçlarını dengelediğin sanal evcil hayvan oyunu.</p><ul class="tags"><li class="tag">C</li><li class="tag">SDL2</li></ul><span class="project-status">Durum bilgisi bekleniyor</span></div></a></article></div>
+    </section>
+<section id="coding" class="group">
+      <div class="section-head"><h2><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#terminal"/></svg> Yazılım projelerim</h2></div>
+      <div class="project-grid"><article class="project-card project-card--server-system"><a href="projects/server-system.html"><figure class="cover cover--media"><img src="media/projects/server-suite/occupancy-report.webp" alt="WinForms ekranında SQL Server doluluk raporu. Tabloda kapasite, oyuncu sayısı ve doluluk oranı ile oyuncusuz sunucular var. CSV dışa aktarma düğmesi görünüyor." width="1297" height="950" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">SQL Server veri katmanı</span><h3>Online Oyun Sunucu Yönetim Sistemi</h3><p>WinForms yönetim panelini besleyen sunucu, oyuncu ve raporlama verileri.</p><ul class="tags"><li class="tag">SQL Server</li><li class="tag">SQL</li></ul><span class="project-status">Durum bilgisi bekleniyor</span></div></a></article><article class="project-card project-card--server-panel"><a href="projects/server-panel.html"><figure class="cover cover--media"><img src="media/projects/server-suite/dashboard.webp" alt="WinForms ana panelinde veritabanı bağlantısı, aktif oyuncu ve sunucu sayaçları, destek talepleri, ban sayısı ve doluluk çubukları." width="1917" height="1078" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">C# Windows Forms uygulaması</span><h3>Online Oyun Sunucu Yönetim Paneli</h3><p>SQL Server bağlantılı masaüstü yönetim paneli.</p><ul class="tags"><li class="tag">C#</li><li class="tag">WinForms</li><li class="tag">SQL Server</li></ul><span class="project-status">Durum bilgisi bekleniyor</span></div></a></article><article class="project-card project-card--nekon5"><a href="projects/nekon5.html"><figure class="cover cover--script"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#script"/></svg><figcaption>Görsel bekleniyor</figcaption></figure><div class="project-copy"><span class="project-status">Oyunlaştırılmış masaüstü öğrenme uygulaması</span><h3>NekoN5 (ねこN5)</h3><p>JLPT N5 düzeyinde Japonca çalışmak için kedi temalı bir Java uygulaması.</p><ul class="tags"><li class="tag">Java 21</li><li class="tag">OOP</li><li class="tag">Eclipse</li><li class="tag">Maven</li><li class="tag">JUnit</li></ul><span class="project-status">Aktif geliştirme</span></div></a></article><article class="project-card project-card--portfolio"><a href="projects/portfolio.html"><figure class="cover cover--sparkle"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#sparkle"/></svg><figcaption>Görsel bekleniyor</figcaption></figure><div class="project-copy"><span class="project-status">Web</span><h3>Kişisel portfolyo</h3><p>Web, kod ve tasarımı bir araya getiren kişisel sitem.</p><ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li></ul><span class="project-status">Web’de erişilebilir</span></div></a></article></div>
+    </section>
+  </main>
+  <template id="english-content">
+    <h1>Projects</h1>
+    <section id="games" class="group">
+      <div class="section-head"><h2><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#game"/></svg> My games</h2></div>
+      <div class="project-grid"><article class="project-card project-card--mewmory"><a href="projects/mewmory.html"><figure class="cover cover--moon"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#moon"/></svg><figcaption>Image pending</figcaption></figure><div class="project-copy"><span class="project-status">Psychological horror</span><h3>Mewmory</h3><p>Cats, secrets and a dark pixel-art atmosphere.</p><ul class="tags"><li class="tag">Pixel art</li></ul><span class="project-status">Just started</span></div></a></article><article class="project-card project-card--studyverse"><a href="projects/studyverse.html"><figure class="cover cover--media"><img src="media/projects/studyverse/02_oyuncu_koyu.png" alt="A blue-roofed house and a tree placed on an eight-by-eight isometric plot in the Godot prototype, with Market and Solve a Question buttons below." width="1280" height="800" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">Web-based learning game</span><h3>StudyVerse</h3><p>Solve function questions, earn gold and build an isometric village.</p><ul class="tags"><li class="tag">Godot 4.6.2</li><li class="tag">GDScript</li><li class="tag">React</li><li class="tag">TypeScript</li><li class="tag">Vite</li><li class="tag">Supabase</li><li class="tag">PostgreSQL</li><li class="tag">SQL</li></ul><span class="project-status">Playable prototype · In development</span></div></a></article><article class="project-card project-card--sushisim"><a href="projects/sushisim.html"><figure class="cover cover--media"><img src="media/projects/sushisim/playing.webp" alt="Sushi sits in a cardboard box beside the scratching post, with the status bars and action buttons on screen." width="1919" height="1079" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">Virtual pet</span><h3>SushiSim</h3><p>A virtual pet game about keeping a cat named Sushi happy.</p><ul class="tags"><li class="tag">C</li><li class="tag">SDL2</li></ul><span class="project-status">Status to be confirmed</span></div></a></article></div>
+    </section>
+<section id="coding" class="group">
+      <div class="section-head"><h2><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#terminal"/></svg> Coding projects</h2></div>
+      <div class="project-grid"><article class="project-card project-card--server-system"><a href="projects/server-system.html"><figure class="cover cover--media"><img src="media/projects/server-suite/occupancy-report.webp" alt="The SQL Server occupancy report in WinForms shows capacity, player count and occupancy, including servers with no players. A CSV export button is visible." width="1297" height="950" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">SQL Server data layer</span><h3>Online Game Server Management System</h3><p>Server, player and reporting data for the WinForms administration panel.</p><ul class="tags"><li class="tag">SQL Server</li><li class="tag">SQL</li></ul><span class="project-status">Status to be confirmed</span></div></a></article><article class="project-card project-card--server-panel"><a href="projects/server-panel.html"><figure class="cover cover--media"><img src="media/projects/server-suite/dashboard.webp" alt="The WinForms dashboard shows the database connection, counts for active players and servers, support tickets and bans, and occupancy bars." width="1917" height="1078" loading="lazy" decoding="async"></figure><div class="project-copy"><span class="project-status">C# Windows Forms app</span><h3>Online Game Server Management Panel</h3><p>A desktop administration panel connected to SQL Server.</p><ul class="tags"><li class="tag">C#</li><li class="tag">WinForms</li><li class="tag">SQL Server</li></ul><span class="project-status">Status to be confirmed</span></div></a></article><article class="project-card project-card--nekon5"><a href="projects/nekon5.html"><figure class="cover cover--script"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#script"/></svg><figcaption>Image pending</figcaption></figure><div class="project-copy"><span class="project-status">Gamified desktop learning app</span><h3>NekoN5 (ねこN5)</h3><p>A cat-themed Java app for studying Japanese at JLPT N5 level.</p><ul class="tags"><li class="tag">Java 21</li><li class="tag">OOP</li><li class="tag">Eclipse</li><li class="tag">Maven</li><li class="tag">JUnit</li></ul><span class="project-status">In active development</span></div></a></article><article class="project-card project-card--portfolio"><a href="projects/portfolio.html"><figure class="cover cover--sparkle"><svg class="icon" aria-hidden="true"><use href="assets/nez/icons.svg#sparkle"/></svg><figcaption>Image pending</figcaption></figure><div class="project-copy"><span class="project-status">Web</span><h3>Personal portfolio</h3><p>My personal site brings together web development, code and design.</p><ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li></ul><span class="project-status">Available on the web</span></div></a></article></div>
+    </section>
+  </template>
+  <footer class="site-footer">
+    <span>© <span data-year>2026</span> Nezaket Demirci</span>
+    <a class="profile-link" href="https://github.com/di3withd4zai" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    <a class="profile-link" href="https://www.linkedin.com/in/nezaketdemirci" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    <a href="mailto:nezaketdemirci1@gmail.com" data-copy="email">E-posta</a>
+  </footer>
+</body>
+</html>
